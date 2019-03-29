@@ -11,3 +11,11 @@ Source: https://wiki.archlinux.org/index.php/Wine#Fonts
 > [HKEY_CURRENT_USER\Software\Wine\X11 Driver]
 > "ClientSideWithRender"="N"
 > ```
+
+## Android USB Tethering
+
+`dhcpcd` can handle USB tethering automatically.
+
+```
+sudo systemctl enable dhcpcd.service
+```
